@@ -443,7 +443,7 @@ button {
 }
 
 .products__shape {
-    background-color: hsl(0deg 0% 76%);
+    background-color: hsl(0deg 0% 87%);
     border-radius: 0.5rem 0.5rem 0 0;
     text-align: center;
     padding: 0.25rem 0;
@@ -475,6 +475,13 @@ button {
 
 .products__card:hover .products__img {
     transform: translateY(-0.25rem);
+}
+
+
+/* active link products */
+
+.active-product .products__title {
+    color: var(--title-color);
 }
 
 

@@ -146,17 +146,17 @@
                 </h2>
 
                 <ul class="products__filters">
-                    <li class="products__item products__line">
+                    <li class="products__item products__line active-product" data-filter=".delicacies">
                         <h3 class="products__title text-capitalize">new delacacies</h3>
                         <span class="products__stock">3 products</span>
                     </li>
 
-                    <li class="products__item products__line">
+                    <li class="products__item products__line" data-filter=".coffee">
                         <h3 class="products__title text-capitalize">hot coffee</h3>
                         <span class="products__stock">4 products</span>
                     </li>
 
-                    <li class="products__item">
+                    <li class="products__item" data-filter=".cake">
                         <h3 class="products__title text-capitalize">cackes and delacacies</h3>
                         <span class="products__stock">4 products</span>
                     </li>
@@ -166,7 +166,7 @@
                 <div class="products__content grid">
 
                     <!----------------------------------------- delicacies ----------------------------------------->
-                    <article class="products__card">
+                    <article class="products__card delicacies">
                         <div class="products__shape">
                             <img src="images/delicacies1.png" class="products__img">
                         </div>
@@ -181,7 +181,7 @@
                         </div>
                     </article>
 
-                    <article class="products__card">
+                    <article class="products__card delicacies">
                         <div class="products__shape">
                             <img src="images/delicacies2.png" class="products__img">
                         </div>
@@ -196,7 +196,7 @@
                         </div>
                     </article>
 
-                    <article class="products__card">
+                    <article class="products__card delicacies">
                         <div class="products__shape">
                             <img src="images/delicacies3.png" class="products__img">
                         </div>
@@ -212,7 +212,7 @@
                     </article>
 
                     <!---------------------------------------- coffee ---------------------------------------->
-                    <article class="products__card">
+                    <article class="products__card coffee">
                         <div class="products__shape">
                             <img src="images/coffee1.png" class="products__img">
                         </div>
@@ -227,7 +227,7 @@
                         </div>
                     </article>
 
-                    <article class="products__card ">
+                    <article class="products__card coffee">
                         <div class="products__shape ">
                             <img src="images/coffee2.png " class="products__img ">
                         </div>
@@ -242,7 +242,7 @@
                         </div>
                     </article>
 
-                    <article class="products__card ">
+                    <article class="products__card coffee">
                         <div class="products__shape ">
                             <img src="images/coffee3.png " class="products__img ">
                         </div>
@@ -257,7 +257,7 @@
                         </div>
                     </article>
 
-                    <article class="products__card">
+                    <article class="products__card coffee">
                         <div class="products__shape">
                             <img src="images/coffee4.png" class="products__img">
                         </div>
@@ -273,7 +273,7 @@
                     </article>
 
                     <!----------------------------------------------- cakes ----------------------------------------------->
-                    <article class="products__card ">
+                    <article class="products__card cake">
                         <div class="products__shape ">
                             <img src="images/cake1.png" class="products__img ">
                         </div>
@@ -288,7 +288,7 @@
                         </div>
                     </article>
 
-                    <article class="products__card ">
+                    <article class="products__card cake">
                         <div class="products__shape ">
                             <img src="images/cake2.png" class="products__img ">
                         </div>
@@ -303,7 +303,7 @@
                         </div>
                     </article>
 
-                    <article class="products__card ">
+                    <article class="products__card cake">
                         <div class="products__shape ">
                             <img src="images/cake3.png" class="products__img ">
                         </div>
@@ -318,7 +318,7 @@
                         </div>
                     </article>
 
-                    <article class="products__card ">
+                    <article class="products__card cake">
                         <div class="products__shape ">
                             <img src="images/cake4.png" class="products__img">
                         </div>
@@ -337,8 +337,17 @@
         </section>
         <!-- end products section -->
 
+        <!-- start quality -->
+        <section class="quality section" id="premium">
+
+        </section>
+        <!-- end quality -->
+
     </main>
     <!-- end main section -->
+
+    <!-- MixUp filter -->
+    <script src="js/mixitup.min.js"></script>
 
     <!-- this is main java script file -->
     <script src="js/script.js "></script>
