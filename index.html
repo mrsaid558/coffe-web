@@ -6,10 +6,153 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap" rel="stylesheet">
+
+    <!-- this is favourite icon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- this is box icon library -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- this is main css file -->
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
-    <h1>this is html code</h1>
+
+    <!-- start header section -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="images/logo.png" class="nav__logo-img"> Coffee.
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#Home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Premium" class="nav__link">Premium</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Blog" class="nav__link">Blog</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <!-- this is toggle button -->
+            <div class="nav__toggle" id="nav__toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+    <!-- end header section -->
+
+    <!-- start main section -->
+    <main>
+        <!-- start home -->
+        <section class="home grid" id="home">
+            <div class="home__container">
+                <div class="home__content container">
+                    <h1 class="home__title">
+                        choose your favourite coffee and enjoy <span>.</span>
+                    </h1>
+                    <p class="home__description">
+                        buy the best and delicious coffee.
+                    </p>
+                    <div class="home__data">
+                        <div class="home__data-group">
+                            <h2 class="home__data-number">120K</h2>
+                            <h3 class="home__data-title">Testimonials</h3>
+                            <p class="home__data-description">
+                                Testimonials from various customers who trust us.
+                            </p>
+                        </div>
+
+                        <div class="home__data-group">
+                            <h2 class="home__data-number">340+</h2>
+                            <h3 class="home__data-title">Exclusive Product</h3>
+                            <p class="home__data-description">
+                                premium preparation with quality ingredients.
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="#specialty">
+                        <img src="images/scroll.png" class="home__scroll">
+                    </a>
+                </div>
+            </div>
+            <img src="images/home.png" class="home__img">
+        </section>
+        <!-- end home -->
+
+        <!-- start especialty -->
+        <div class="specialty section container" id="specialty">
+            <div class="specialty__container">
+                <div class="specialty__box">
+                    <h2 class="section__title text-capitalize">
+                        specialty coffee that make you happy and cheer you up!
+                    </h2>
+                    <div>
+                        <a href="#" class="button specialty__button text-capitalize">See more</a>
+                    </div>
+                </div>
+
+                <div class="specialty__category">
+                    <div class="specialty__group">
+                        <img src="images/specialty1.png" class="specialty__img">
+                        <h3 class="specialty__title text-capitalize">selected coffee</h3>
+                        <p class="specialty__description text-capitalize">
+                            we select the best premuim coffee, for a true taste.
+                        </p>
+                    </div>
+
+                    <div class=" specialty__group ">
+                        <img src="images/specialty2.png " class="specialty__img ">
+                        <h3 class="specialty__title text-capitalize ">delicious cookies</h3>
+                        <p class="specialty__description text-capitalize ">
+                            enjoy your coffee with some hot cookies
+                        </p>
+                    </div>
+
+                    <div class="specialty__group ">
+                        <img src="images/specialty3.png " class="specialty__img ">
+                        <h3 class="specialty__title text-capitalize">enjoy at home</h3>
+                        <p class="specialty__description text-capitalize">
+                            enjoy the best coffee in the comfort of your home
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end especialty -->
+
+        <!-- start products section -->
+        <section class="products section" id="products">
+            <div class="products__container container">
+                <h2 class="section__title text-capitalize">
+                    choose our delicious and best products
+                </h2>
+            </div>
+        </section>
+        <!-- end products section -->
+
+    </main>
+    <!-- end main section -->
+
+    <!-- this is main java script file -->
+    <script src="js/script.js "></script>
 </body>
 
 </html>
